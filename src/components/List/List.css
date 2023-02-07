@@ -1,0 +1,17 @@
+.event-list__edit {
+  background-color: var(--blue-color);
+}
+
+.event-list__edit:hover {
+  background-color: #17a0ce;
+  cursor: pointer;
+}
+
+.event-list__delete {
+  background-color: var(--vermillion-red);
+}
+
+.event-list__delete:hover {
+  background-color: #ed6b6b;
+  cursor: pointer;
+}

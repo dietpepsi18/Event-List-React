@@ -1,0 +1,14 @@
+:root {
+  --blue-color: #008cba;
+  --tan-color: #e6e2d3;
+  --traffic-white-color: #f0f0f0;
+  --vermillion-red: #c94c4c;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.6rem;
+}
