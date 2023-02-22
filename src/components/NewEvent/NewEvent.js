@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./NewEvent.css";
+import "./NewEvent.scss";
 
 export default function NewEvent(props) {
   const [item, setItem] = useState({});

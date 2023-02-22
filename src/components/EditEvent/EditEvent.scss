@@ -1,0 +1,10 @@
+@import "../../styles/variables";
+@import "../../styles/mixins";
+
+.event-list__save {
+  @include button($blue-color, $blue-color-hover);
+}
+
+.event-list__cancel {
+  @include button($vermillion-red, $red-color-hover);
+}

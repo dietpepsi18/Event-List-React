@@ -1,7 +1,7 @@
-import React, { useState } from "react";
-import "./Header.css";
+import React from "react";
+import "./Header.scss";
 export default function Header(props) {
-  const { setAddNew, handleEvent } = props;
+  const { setAddNew } = props;
 
   //show input window to add new event
   const showInputWindow = () => {

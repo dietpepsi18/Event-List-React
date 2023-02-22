@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import EditEvent from "../EditEvent/EditEvent";
+import "./Item.scss";
 
 export default function Item(props) {
   const [isEditing, setIsEditing] = useState(false);

@@ -3,7 +3,7 @@ import Header from "./components/Header/Header";
 import List from "./components/List/List";
 import NewEvent from "./components/NewEvent/NewEvent";
 import API from "./api";
-import "./App.css";
+import "./App.scss";
 
 export default function App() {
   //state
@@ -84,7 +84,7 @@ export default function App() {
 
   return (
     <div className="wrapper">
-      <Header events={list} setAddNew={setAddNew} handleEvent={handleEvent} />
+      <Header events={list} setAddNew={setAddNew} />
       <main className="main">
         <table className="event-list">
           <thead className="event-list__head">

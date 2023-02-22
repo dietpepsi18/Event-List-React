@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./EditEvent.scss";
 
 export default function EditEvent(props) {
   const { eventName, startDate, endDate, id } = props;
